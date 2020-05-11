@@ -1,0 +1,7 @@
+{
+  "name": "server",
+  "dependencies": {},
+  "globalDependencies": {
+    "egg.js": "registry:dt/egg.js#0.0.1+20160510002910"
+  }
+}

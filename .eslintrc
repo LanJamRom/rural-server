@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": ["eslint-config-egg", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-console": "off",
+    "no-undef": "off",
+    // "strict": "off",
+    "jsdoc/check-tag-names": "off",
+    "spaced-comment": "error" // 注释前面必须有空格
+  }
+}
